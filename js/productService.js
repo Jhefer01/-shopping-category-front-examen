@@ -7,7 +7,7 @@ function products() {
         .then(data => {
             console.log('Productos:', data);
 
-            let listProduct = `
+            let listProduct = ` 
             <button type="button" class="btn btn-success" onclick="createProduct()">Crear</button>
             <div class="table-responsive">
                 <table class="table table-striped table-hover border-success">

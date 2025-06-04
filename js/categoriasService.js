@@ -15,7 +15,6 @@ function categorias() {
                         <tr>
                             <th scope="col">#</th>
                             <th scope="col">Nombre</th>
-                            <th scope="col">Precio</th>
                             <th scope="col">Descripción</th>
                             <th scope="col">Imagen</th>
                             <th scope="col">Acción</th>
@@ -75,7 +74,7 @@ function getCategoria(idCategoria) {
                                 <img src="${data.image}" class="card-img-top rounded mx-auto mt-3" style="width: 200px;" alt="Imagen del producto">
                                 <div class="card-body">
                                     <h5 class="card-title text-success">${data.name}</h5>
-                                    <p class="card-text"><strong>Precio:</strong> $${data.slug}</p>
+                                    <p class="card-text"><strong>Precio:</strong>${data.slug}</p>
                                     
                                 </div>
                             </div>
