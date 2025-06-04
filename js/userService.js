@@ -20,7 +20,8 @@ function users(page) {
     })
     .then((result)=>{
         if (result.status===200) {
-            let list_user = `<table class="table">
+            let list_user = `<button type="button" class="btn btn-success" onclick="createUser()">Crear</button>
+            <table class="table">
             <thead>
             <tr>
             <th scope="col">#</th>
@@ -144,10 +145,10 @@ function createUser(){
                         <form id="formCreateUser">
                             <div class="row g-3">
                                 <div class="col">
-                                    <input type="text" class="form-control" id="first_name" placeholder="Nombre" required>
+                                    <input type="text" class="form-control" id="name" placeholder="Nombre" required>
                                 </div>
                                 <div class="col">
-                                    <input type="text" class="form-control" id="last_name" placeholder="Apellido" required>
+                                    <input type="text" class="form-control" id="avatar" placeholder="avatar" required>
                                 </div>
                             </div>
                             <div class="row g-3 mt-3">
@@ -180,13 +181,13 @@ function createUser(){
 function saveUser() {
  const form = document.getElementById('formCreateUser')
  if(form.checkValidity()){
-    const first_name = document.getElementById('first_name').value
-    const last_name = document.getElementById('last_name').value
+    const name = document.getElementById('name').value
+    const avatar = document.getElementById('avatar').value
     const email = document.getElementById('email').value  
     const password = document.getElementById('password').value
-    const user= {first_name, last_name, email, password}
+    const user= {name, avatar, email, password}
 
- const REQRES_ENDPOINT = 'https://reqres.in/api/users/'
+ const REQRES_ENDPOINT = 'https://api.escuelajs.co/api/v1/users'
     fetch(REQRES_ENDPOINT,  {
         method: 'POST',
         headers: {

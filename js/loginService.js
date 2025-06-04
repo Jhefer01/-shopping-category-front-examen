@@ -24,7 +24,7 @@ function login(email, password) {
             message ='inicio exitoso'
             alertBuilder(alertType,message)
             response.json().then((data) => {
-                localStorage.setItem('token', data.token)
+                localStorage.setItem('token', data.access_token)
             })
             localStorage.setItem('token',"hola")
             setTimeout (()=>{
