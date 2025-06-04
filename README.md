@@ -15,4 +15,6 @@ creamos categorias y el funcionamiento del boton de agregar nuevas categorias
 ![Screenshot 2025-06-03 203701](https://github.com/user-attachments/assets/4124c3b1-4698-49cf-95a0-d8886ad8c3c3)
 ![Screenshot 2025-06-03 203726](https://github.com/user-attachments/assets/8f0ab38b-42d3-4408-b829-9b31883843d1)
 armonizamos los colores y hicimos mas llamativa la pagina
-
+![Screenshot 2025-06-03 204545](https://github.com/user-attachments/assets/7eeb993c-0af3-42ca-a9be-43e9a1e509dd)
+![Screenshot 2025-06-03 204608](https://github.com/user-attachments/assets/3b6ceae0-6b50-4779-b4bc-c03a3113a5ee)
+agregamos estilos mas armonizados
