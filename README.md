@@ -6,3 +6,7 @@
 boton funcional de crear usuario
 ![Screenshot 2025-06-03 195103](https://github.com/user-attachments/assets/8d609a0c-2bc6-4b7a-acf9-ac5dd1b0135a)
 arreglamos el  guardado
+![Screenshot 2025-06-03 202241](https://github.com/user-attachments/assets/40de5b88-3eaf-46ad-a29f-408ff83079d9)
+![Screenshot 2025-06-03 202408](https://github.com/user-attachments/assets/654fa23a-ab1a-46b0-8e55-f7567bfcd67d)
+agregamos el funcionamiento del boton de crear producto
+
